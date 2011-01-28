@@ -1,0 +1,128 @@
+tesoreria:
+  Generales:
+    Catálogo de Tipos de Cuentas Bancarias:               tsrtipcue.php
+    Catálogo de Tipos de Movimientos Bancarios:           tsrtipmov.php
+    Catálogo de Tipos de Monedas:                         tsrdesmon.php
+    Catálogo de  Bancos:                                  tsrdefban.php
+    Catálogo de Tipos de Beneficiario:                    oprtipben.php
+    Catálogo de Beneficiarios:                            oprbenefi.php
+    Catálogo de Ubicación:                                oprdesubi.php
+    Catálogo de Tipos de Retenciones:                     oprtipret.php
+    Catálogo de Tipos de Financiamiento:                  precattipfin.php
+  Movimientos:
+    Listado de Ordenes de Pago:                           oprordpag.php
+    Listado de Ordenes de Pago por Beneficiario:          oprordpagporbeneficiario.php
+    Disponibilidad Bancaria:                              tsrdisban.php
+    Relación de Cuentas Bancarias:                        tsrrelban.php
+    Movimientos según Libros :                            tsrmovlib.php
+    Movimientos según Bancos:                             tsrmovban.php
+    Transferencias  Bancarias:                            tsrtraban.php
+    Conciliación Bancaria:                                tsrconcil.php
+    Detalle de Conciliación:                              tsrrescon.php
+  Formas Preimpresas:
+    Orden de Pago Preimpresa:                             oprordpre.php
+    Voucher:                                              tsrvoucher1.php
+  Impuestos:
+    Comprobante de retención IVA:                         oprcompret_iva.php
+    Comprobante de retención ISLR:                        oprcompret_islr.php
+    Comprobante de retención LTF:                         oprcompret_ltf.php
+    Libro de Compras:                                     tsrlibcom.php
+
+contabilidad:
+  Catalogo de Cuentas:                                    ConCatCue.php
+  Diario de Comprobantes:                                 ConDiaCom.php
+  Resumen de Comprobantes:                                ConResCom.php
+  Balance de Comprobación:                                ConBalCom.php
+  Balance General:                                        ConBalGen.php
+  Estado de Resultados:                                   ConEdoRes.php
+  Mayor Analítico:                                        ConMayAna.php
+  Comprobante Individual:                                 Comprobante.php
+
+
+compras:
+  Generales:
+    Catalogo de Artículos:                                CARCATART.php
+    Catalogo de Ramos:                                    CARRAMART.php
+    Catalogo de Ubicaciones:                              CARDEFUBI.php
+    Catalogo de Proveedores:                              CARPROVEE.php
+    Catalogo de Almacenes:                                CARDEFALM.php
+    Catalogo de Recaudos:                                 CARRECAUD.php
+    Catalogo de Recargos:                                 CARRECARG.php
+    Catalogo de Condiciones de Pago:                      CARCONPAG.php
+    Catalogo de Formas de Entrega:                        CARFORENT.php
+    Catalogo de Razones de Compra:                        CARRAZCOM.php
+    Catalogo de Rangos de Cotizaciones:                   CARDEFCOT.php
+    Ficha del Proveedor:                                  CARFICPRO.php
+  Movimientos:
+    Requisiciones:                                        CARREQART.php
+    Recepciones:                                          CARRCPART.php
+    Despachos:                                            CARDPHART.php
+    Ordenes de Compra:                                    CARDETORD.php
+    Ordenes de Servicio:                                  CARDETORDS.php
+    Recepciones y Diferencias:                            CARRCPORD.php
+    Despachos y Diferencias:                              CARREQDPH.php
+    Resumen de Movimientos:                               CARMOVART.php
+  Formas Preimpresas:
+    Etiquetas de Articulos:                               CARETIQUE.php
+    Requisiciones:                                        CARREQPRE.php
+    Solicitud de Compra:                                  CARSOLEGRPRE.php
+    Recepciones:                                          CARRCPPRE.php
+    Despachos:                                            CARDPHPRE.php
+    Ordenes de Compra:                                    CARORDPRE.php
+    Ordenes de Servicio:                                  CARORDSER.php
+    Constancia de Inscripción Provisional De Proveedores: CARCONINSPRO.php
+  Almacén:
+    Inventario Físico Valorado:                           CARINVFIS.php
+    Stock Máximo:                                         CARSTOMAX.php
+    Stock Minimo:                                         CARSTOMIN.php
+    Punto de Reorden:                                     CARPTOREO.php
+
+presupuesto:
+  Definiciones Específicas:
+    Catalogo de Partidas:                                 precatpar.php
+    Documentos Precompromiso:                             precatprc.php
+    Documentos Compromiso:                                precatcom.php
+    Documentos Causado:                                   precatcau.php
+    Documentos Pago:                                      precatpag.php
+    Documentos Ajuste:                                    precataju.php
+    Articulos de Ley:                                     precatartley2.php
+    Listado de Tipos de Financiamiento:                   precattipfin.php
+  Formatos:
+    PreCompromisos:                                       cprprecompromiso.php
+    Compromisos:                                          cprcompromiso.php
+    Causado:                                              cprcausado.php
+    Pagado:                                               cprpagado.php
+  Movimientos:
+    Certificacion Presupuestaria:                         precerpre.php
+    Precompromisos:                                       preprc.php
+    Compromisos:                                          precom.php
+    Causados:                                             precau.php
+    Pagados:                                              prepag.php
+    Traslados:                                            pretra2.php
+    Ajustes:                                              preaju.php
+    Solicitud de Adiciones y Disminuciones:               prersoladidis.php
+#    Creditos Adicionales/Disminuciones:                   preadidispre.php
+  Ejecución Presupuestaria:
+    Asignación Inicial Consolidado:                       prerasiini.php
+    Ejecución del Presupuesto:                            preejepre.php
+    Ejecución Presupuestaria por Partidas:                predispar.php
+    Consolidado de Ejecución por Movimientos:             consolidado.php
+
+ciudadanos:
+  Definiciones:
+    Tipos de Donaciones:                                  attipayu.php
+    Recaudos:                                             atrecaud.php
+    Recaudos por Rubros:                                  atrecayu.php
+    Unidades:                                             atunidades.php
+    Estados:                                              atestado.php
+    Municipios:                                           atmunicipio.php
+    Parroquias:                                           atparroquia.php
+    Denuncias:                                            atdenuncia.php
+    Reclamos:                                             atreclamo.php
+    Audiencia:                                            ataudiencia.php
+    Tipo de Ingreso:                                      attipingreso.php
+    Tipo de Vivienda:                                     attipvivienda.php
+  Actas:
+    Acta de Donacion:                                     atacta.php
+    Planilla de Tramitación y Control Interno:            atplatra.php
+    Ficha de Registro:                                    atfichareg.php

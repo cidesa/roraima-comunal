@@ -1,0 +1,18 @@
+NameVirtualHost roraima.local
+
+CheckSpelling on
+
+<VirtualHost roraima.local >
+
+  ServerName roraima.local
+
+  DocumentRoot "/var/www/cidesa/roraima/web"
+  DirectoryIndex auntenticacion.php/login
+
+  <Directory "/var/www/cidesa/roraima/web/">
+    AllowOverride All
+    Allow from All
+  </Directory>
+
+</VirtualHost>
+
