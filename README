@@ -1,5 +1,11 @@
-RORAIMA
-Es una aplicación de Sistema Integrado de Gestión Administrativa para el estado Venezolano
+RORAIMA COMUNAL
+Es una aplicación de Sistema Integrado de Gestión Administrativa para los consejos comunales Venezolanos
+Es una Fork del Proyecto Roraima que busca crear una herramienta administrativa que le sirva a los
+Consejos comunales de toda Venezuela.
+
+Fue creada apra apoyar el proyecto Canaima Comunal [http://comunal.canaima.org.ve/doku.php]
+
+
 Copyright (c) 2007 Cide S.A., Todos los Derechos Reservados
 
 Este programa es Software Libre; usted puede redistribuirlo
